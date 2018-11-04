@@ -22,7 +22,7 @@ h1 {
 button {
     font-family: Verdana;
     background-color: #bebebe;
-    border: 1px solid transparent ;
+    
    padding: 5px;
     
     border-radius: 50%;
@@ -43,7 +43,12 @@ nav a {
     margin-top: 10px;
     display: inline-block;
     background-color: #bebebe;
-    border-radius: 5px;
+    
+    border: 1px solid transparent ;
+    width:20vw; /* 20% of the viewport width */
+    height: 20vw;
+
+
   }
   nav a:visited, a:link {
     color: #435761;
