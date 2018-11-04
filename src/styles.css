@@ -19,37 +19,33 @@ h1 {
     cursor: hand;
   }
   
-button {
+  button {
     font-family: Verdana;
     background-color: #bebebe;
-    
-   padding: 5px;
-    
-    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
     cursor: pointer;
     cursor: hand;
   }
-
-button:hover {
-background-color: #bebebe;
-cursor: pointer;
-color: #394b53;
-}
-
-nav a {
- display: block;
-height: 200px;
-width: 200px;
-line-height: 200px;
--moz-border-radius: 100px; /* or 50% of height */
-border-radius: 100px; /* or 50% of height */
-background-color: darkolivegreen;
-color: white;
-text-align: center;
-font-size: 1em;
-    
-
-
+  button:hover {
+    background-color: #d3dbdf;
+  }
+  
+  button:disabled {
+    background-color: #bebebe;
+    color: #767676;
+    cursor: auto;
+  }
+  
+  nav a {
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #bebebe;
+    border-radius: 5px;
   }
   nav a:visited, a:link {
     color: #435761;
@@ -65,4 +61,3 @@ font-size: 1em;
   * {
     font-family: Arial, Verdana, sans-serif;
   }
-
