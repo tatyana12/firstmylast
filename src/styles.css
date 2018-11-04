@@ -62,3 +62,22 @@ nav a {
   * {
     font-family: Arial, Verdana, sans-serif;
   }
+
+.module {
+display: block;
+height: 200px;
+width: 200px;
+line-height: 200px;
+-moz-border-radius: 100px; /* or 50% of height */
+border-radius: 100px; /* or 50% of height */
+background-color: darkolivegreen;
+color: white;
+text-align: center;
+font-size: 1em;
+}
+.module:hover {
+background-color: #bebebe;
+cursor: pointer;
+color: #394b53;
+}
+
