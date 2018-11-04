@@ -24,7 +24,8 @@ h1 {
     background-color: #bebebe;
     border: none;
     padding: 5px;
-    border-radius: 5px;
+    
+    border-radius: 50%;
     cursor: pointer;
     cursor: hand;
   }
