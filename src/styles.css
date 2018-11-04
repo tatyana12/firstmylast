@@ -19,27 +19,25 @@ h1 {
     cursor: hand;
   }
   
-  button {
-    font-family: Verdana;
-    background-color: #bebebe;
-    border: 1px solid transparent ;
-    
-    
-    padding: 5px;
-    
-    border-radius: 50%;
-    cursor: pointer;
-    cursor: hand;
-  }
-  button:hover {
-    background-color: #d3dbdf;
-  }
-  
-  button:disabled {
-    background-color: #bebebe;
-    color: #767676;
-    cursor: auto;
-  }
+.button {
+display: block;
+height: 200px;
+width: 200px;
+line-height: 200px;
+-moz-border-radius: 100px; /* or 50% of height */
+border-radius: 100px; /* or 50% of height */
+background-color: darkolivegreen;
+color: white;
+text-align: center;
+font-size: 1em;
+}
+.button:hover {
+background-color: #bebebe;
+cursor: pointer;
+color: #394b53;
+}
+
+
   
   nav a {
     padding: 5px;
