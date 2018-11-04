@@ -20,17 +20,19 @@ h1 {
   }
   
 button {
-display: block;
-height: 200px;
-width: 200px;
-line-height: 200px;
--moz-border-radius: 100px; /* or 50% of height */
-border-radius: 100px; /* or 50% of height */
-background-color: darkolivegreen;
-color: white;
-text-align: center;
-font-size: 1em;
-}
+    font-family: Verdana;
+    background-color: #bebebe;
+    border: 1px solid transparent ;
+    width:20vw; /* 20% of the viewport width */
+    height: 20vw;
+    
+    padding: 5px;
+    
+    border-radius: 50%;
+    cursor: pointer;
+    cursor: hand;
+  }
+
 button:hover {
 background-color: #bebebe;
 cursor: pointer;
